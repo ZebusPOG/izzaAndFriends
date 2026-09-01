@@ -113,8 +113,16 @@ erDiagram
 - **Database:** MySQL (min. 4 tabel sesuai ERD di atas)
 
 ---
+## 7. Desain UI/UX
 
-## 7. Cara Menjalankan Proyek
+Desain antarmuka dan prototype website dibuat menggunakan Figma.
+
+Figma:
+https://www.figma.com/design/OLYfGKbO5q5rlL0TFokk71/Untitled?node-id=23-4065&t=uj0RrPyuDiaQTnVz-1
+
+---
+
+## 8. Cara Menjalankan Proyek
 
 ```bash
 git clone <url-repo>
