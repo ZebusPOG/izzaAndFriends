@@ -58,7 +58,7 @@ erDiagram
     KATEGORI_UMKM ||--o{ UMKM_SUBMISSIONS : mengelompokkan
     UMKM_SUBMISSIONS ||--o{ PRODUK : memiliki
 
-    USERS {
+    users {
         bigint id PK
         string name
         string email
@@ -68,12 +68,12 @@ erDiagram
         timestamp updated_at
     }
 
-    KATEGORI_UMKM {
+    kategori_umkm {
         bigint id PK
         string nama_kategori "kuliner, kriya, jasa, fashion, dll"
     }
 
-    UMKM_SUBMISSIONS {
+    umkm_submissions {
         bigint id PK
         bigint user_id FK
         bigint kategori_id FK
@@ -87,7 +87,7 @@ erDiagram
         timestamp updated_at
     }
 
-    PRODUK {
+    produk {
         bigint id PK
         bigint umkm_submission_id FK
         string nama_produk
