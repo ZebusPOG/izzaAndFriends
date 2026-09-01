@@ -49,7 +49,7 @@ Proyek ini mendukung poin SDG 8 dengan cara:
 ---
 
 ## 5. Skema Database (ERD)
-
+link: https://drive.google.com/file/d/1vZ4uVpkxZq-JLFh3ua9l1PT9H6r56VhV/view?usp=sharing
 Minimal 4 tabel: `users`, `kategori_umkm`, `umkm_submissions`, `produk`.
 
 ```mermaid
